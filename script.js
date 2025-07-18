@@ -85,7 +85,7 @@ async function loadAllData() {
     visitPurposes,
     visitTypes
   ] = await Promise.all([
-    fetchJsonData('products_data.json'),
+    fetchJsonData('products.json'),
     fetchJsonData('sales_representatives.json'),
     fetchJsonData('customers_main.json'),
     fetchJsonData('visit_outcomes.json'),
