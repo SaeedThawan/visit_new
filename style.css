@@ -58,7 +58,6 @@ body {
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
 }
 
-/* ✅ تفاعل عند تعبئة صحيحة */
 .form-group input:valid,
 .form-group select:valid,
 .form-group textarea:valid {
@@ -175,11 +174,21 @@ body {
   .form-group select,
   .form-group textarea {
     background-color: #374151;
-    color: #f9fafb;
+    color: #f3f4f6;
     border-color: #4b5563;
   }
   .product-item {
     background-color: #2d3748;
     border-color: #4b5563;
+    color: #f3f4f6;
+  }
+  .product-item label {
+    color: #f3f4f6;
+  }
+  .radio-group label {
+    color: #f3f4f6;
+  }
+  .radio-group input[type="radio"] {
+    accent-color: #6366f1;
   }
 }
